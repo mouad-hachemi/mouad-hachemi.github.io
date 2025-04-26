@@ -1,0 +1,60 @@
+{
+    "en": {
+        "nav-section": {
+            "name": "Mouad Hachemi",
+            "nav-links": [
+                "About me",
+                "Projects",
+                "Skills",
+                "Links"
+            ]
+        },
+        "about-section": {
+            "welcome": "Hello, I'm Mouad",
+            "resume": "a <b>Full Stack Developer</b> 💻, and a Graduated <b>Network Engineer</b> 🌐. I enjoy building softwares (Web Apps and Games) and share my tiny knowledge about the digital world, In addition to supporting Free and Open Source Softwares so beware of using <b>Windows</b> in front of my eyes! 🚫. I also love poetry, so you may always find a book in my bag wherever I go 📖."
+        },
+        "projects-section": {
+            "title": "Featured Projects"
+        },
+        "skills-section": {
+            "title": "Skills",
+            "categories": [
+                "Coding 💻",
+                "Languages 🌍",
+                "Digital Art & Design 🎨"
+            ]
+        },
+        "links-section": {
+            "paragraph": "You have an Idea or a Project in your mind? Here's where you can find me:"
+        }
+    },
+    "ar": {
+        "nav-section": {
+            "name": "معاذ هاشمي",
+            "nav-links": [
+                "حولي",
+                "مشاريعي",
+                "مهاراتي",
+                "روابط"
+            ]
+        },
+        "about-section": {
+            "welcome": "مرحبا، أنا معاذ",
+            "resume": "مُطوِّر <b>Full Stack</b> 💻، ومهندس <b>شبكات</b> تخرَّجت حديثًا 🌐. أحب بناء البرمجيات (تطبيقات الويب والألعاب) ومشاركة معرفتي المتواضعة عن العالم الرقمي، بالإضافة إلى كوني مؤيدًا للبرمجيات الحرة والمفتوحة المصدر، لذا إحذر من استخدام <b>Windows</b> أمام عينيّ! 🚫. كما أني شغوف بالأدب، لذا غالبا ما تجدني أحمل كتابًا في حقيبتي أينما ذهبت 📖."
+        },
+        "projects-section": {
+            "title": "مشاريع مميزة"
+        },
+        "skills-section": {
+            "title": "مهارات",
+            "categories": [
+                "💻 البرمجة",
+                "🌍 اللغات",
+                "🎨 التصميم الرقمي"
+            ]
+        },
+        "links-section": {
+            "paragraph": "لديك فكرة أو مشروع؟ يمكنك التواصل معي من هنا:"
+        }
+    }
+}
