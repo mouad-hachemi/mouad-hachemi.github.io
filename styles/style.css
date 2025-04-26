@@ -61,7 +61,7 @@ nav .nav-toggle {
 /* About Me Section Styling */
 section.about-me {
     display: flex;
-    height: 440px;
+    min-height: 440px;
     padding-left: 4rem;
     padding-right: 4rem;
     align-items: center;
@@ -277,6 +277,8 @@ section.links {
 @media (max-width: 600px) {
     section.about-me {
         flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .about-me h1 {
