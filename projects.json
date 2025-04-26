@@ -1,0 +1,14 @@
+{
+    "Todo App 📋": {
+        "url": "https://github.com/mouad-hachemi/todo-web-app",
+        "description": "A simple and elegant To-Do web application built using the PERN stack (PostgreSQL, Express, React, Node.js). This app features user authentication and authorization using JSON Web Tokens (JWT), allowing users to register, log in, and manage their tasks securely."
+    },
+    "Blog App 📝": {
+        "url": "https://github.com/mouad-hachemi/my-blog",
+        "description": "A blogging platform built with Node.js, Express, and EJS, featuring admin authentication, rich text editing, and responsive design."
+    }, 
+    "Memory Game 🧩": {
+        "url": "",
+        "description": "Coming soon.."
+    }
+}

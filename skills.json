@@ -1,0 +1,44 @@
+{
+    "Coding 💻": [
+        {
+            "name": "HTML & CSS",
+            "perfection": 75
+        },
+        {
+            "name": "JavaScript",
+            "perfection": 60
+        },
+        {
+            "name": "ReactJS",
+            "perfection": 55
+        },
+        {
+            "name": "VueJS",
+            "perfection": 40
+        }
+    ],
+    "Languagues 🌍": [
+        {
+            "name": "Arabic",
+            "perfection": 80
+        },
+        {
+            "name": "English",
+            "perfection": 70
+        },
+        {
+            "name": "French",
+            "perfection": 65
+        }
+    ],
+    "Digital Art & Design 🎨": [
+        {
+            "name": "Photoshop",
+            "perfection": 45
+        },
+        {
+            "name": "Blender 3D",
+            "perfection": 10
+        }
+    ]
+}

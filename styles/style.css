@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Mono&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Styling */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+/* Navbar Styling */
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 1.5rem;
+    background: #333;
+    z-index: 99;
+}
+
+nav .nav-toggle {
+    display: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nav-toggle .bar {
+    display: block;
+    height: 3px;
+    width: 25px;
+    margin: 5px;
+    background: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+.nav-links a:hover {
+    background-color: #3f3f3f;
+}
+
+.name {
+    align-content: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* About Me Section Styling */
+section.about-me {
+    display: flex;
+    height: 440px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-me h1 {
+    font-size: 2.5rem;
+}
+
+.about-me p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3rem;
+}
+
+.about-me .portrait {
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: relative; 
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.portrait img {
+    width: 100%;
+    height: auto;
+}
+
+/* My Projects Section Styling */
+section.my-projects {
+    background-color: #DDD;
+}
+
+.my-projects .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.5rem 0.5rem;
+    gap: 1rem;
+}
+
+.project {
+    box-shadow: 0 1px 2px#999;
+    height: fit-content;
+    transition: all 0.2s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-4px);
+}
+
+.project h2 {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 1.2rem;
+    background-color: white;
+    padding: 0.5rem 0.5rem;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.project p {
+    padding: 0.5rem 0.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #333;
+}
+
+/* My Skills Section Styling */
+.my-skills .categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.5rem 0.5rem;
+    gap: 1rem;
+}
+
+.my-skills .skill-category {
+    padding: 0.5rem 0.5rem;
+}
+
+.skill-category > p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.skill-category .skill {
+    background: #DDD;
+    margin: 0.2rem 0.2rem;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+
+.skill p {
+    padding: 0.4rem 0.4rem;
+    font-size: 0.9rem;
+}
+
+.skill .perfection {
+    background: crimson;
+    width: 45%;
+    height: 0.2rem;
+    border-bottom-left-radius: 5px;
+    border-left: 1px solid #888;
+}
+
+/* Links Section Styling */
+section.links {
+    background-color: #333;
+}
+
+.links div {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.links i {
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.links p {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #AAA;
+    font-size: 1rem;
+}
+
+.links i:hover {
+    transform: translateY(-4px);
+}
+/* Responsive Styling */
+@media (max-width: 800px) {
+    .about-me h1 {
+        font-size: 2.2rem;
+    }
+    
+    .about-me p {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-me .portrait {
+        flex-basis: 200px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .my-projects .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .my-skills .categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav {
+        padding: 1rem 0.5rem;
+    }
+
+    nav .nav-toggle {
+        display: block;
+    }
+
+    .nav-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .nav-toggle.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    nav .nav-links {
+        visibility: hidden;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 3.8rem;
+        height: 0%;
+        overflow: hidden;
+        background-color: #333;
+        transition: all 1s ease-in-out;
+    }
+
+    .nav-links a {
+        padding: 1rem 3rem;
+    }
+
+    .nav-links.active {
+        visibility: visible;
+        height: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    section.about-me {
+        flex-direction: column;
+    }
+
+    .about-me h1 {
+        font-size: 2rem;
+    }
+    
+    .about-me p {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1rem;
+    }
+
+    .my-projects .projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .my-skills .categories {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
