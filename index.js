@@ -18,19 +18,30 @@ const toggleLang = document.getElementById("toggle-lang");
 // Generate Projects Section.
 for (const [project, details] of Object.entries(projects)) {
     const projectDiv = document.createElement("div");
+    const projectHeaderDiv = document.createElement("div");
     const projectHeader = document.createElement("h2");
     const projectAnchor = document.createElement("a");
+    const projectOpenIcon = document.createElement("i");
     const projectDesc = document.createElement("p");
 
+    projectHeader.innerHTML = project;
     projectAnchor.href = details["url"];
-    projectAnchor.innerHTML = project;
-    projectAnchor.addEventListener("click", (event) => {
-        event.preventDefault();
-        window.open(event.target.href);
-    });
-    projectHeader.appendChild(projectAnchor);
+    
+    // If the project has a repo url attach an icon to open it:
+    if (details["url"]) {
+        projectOpenIcon.addEventListener("click", (event) => {
+            event.preventDefault();
+            window.open(projectAnchor.href);
+        });
+    }
 
-    projectDiv.appendChild(projectHeader);
+    projectOpenIcon.className = "iconoir-open-new-window";
+    projectOpenIcon.appendChild(projectAnchor);
+
+    projectHeaderDiv.appendChild(projectHeader);
+    projectHeaderDiv.appendChild(projectOpenIcon);
+
+    projectDiv.appendChild(projectHeaderDiv);
     projectDiv.appendChild(projectDesc);
 
     projectDiv.className = "project";
@@ -152,9 +163,9 @@ function injectTexts(lang = "en") {
 
     const projectsDivs = projectsGrid.querySelectorAll(".project");
     for (let element of projectsDivs) {
-        const projectAnchor = element.querySelector("a");
+        const projectHeader = element.querySelector("h2");
         const projectParagraph = element.querySelector("p");
-        projectParagraph.innerHTML = projects[projectAnchor.innerHTML]["description-" + lang];
+        projectParagraph.innerHTML = projects[projectHeader.innerHTML]["description-" + lang];
     }
 
     // Set Skills Section Text:
