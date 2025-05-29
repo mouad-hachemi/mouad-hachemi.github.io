@@ -1,11 +1,11 @@
 {
     "Coding 💻": [
         {
-            "name": "HTML & CSS",
-            "perfection": 75
+            "name": "ExpressJS",
+            "perfection": 65
         },
         {
-            "name": "JavaScript",
+            "name": "Node.js",
             "perfection": 60
         },
         {
@@ -13,8 +13,8 @@
             "perfection": 55
         },
         {
-            "name": "VueJS",
-            "perfection": 40
+            "name": "Tailwind CSS",
+            "perfection": 50
         }
     ],
     "Languagues 🌍": [
