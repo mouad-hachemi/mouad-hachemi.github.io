@@ -4,19 +4,9 @@
         "description-en": "A simple, full-stack (PERN Stack) clinic web application that provides a clean interface for managing appointments and enables online booking with ease.",
         "description-ar": "تطبيق ويب عيادة بسيط ومتكامل (PERN Stack) يوفر واجهة نظيفة لإدارة المواعيد ويتيح الحجز عبر الإنترنت بسهولة."
     },
-    "Todo App 📋": {
-        "url": "https://github.com/mouad-hachemi/todo-web-app",
-        "description-en": "A simple and elegant To-Do web application built using the PERN stack (PostgreSQL, Express, React, Node.js). This app features user authentication and authorization using JSON Web Tokens (JWT), allowing users to register, log in, and manage their tasks securely.",
-        "description-ar": "تطبيق ويب بسيط وأنيق لإدارة المهام مبنى باستخدام تقنية PERN (PostgreSQL وExpress وReact وNode.js)، يدعم تسجيل الدخول والأمان عبر JWT، ويتيح للمستخدمين التسجيل وإدارة مهامهم بشكل آمن."
-    },
-    "Blog App 📝": {
-        "url": "https://github.com/mouad-hachemi/my-blog",
-        "description-en": "A blogging platform built with Node.js, Express, and EJS, featuring admin authentication, rich text editing, and responsive design.",
-        "description-ar": "منصة تدوين تم بناؤها باستخدام Node.js وExpress وEJS، تتميز بمصادقة الأدمن (نظام تحكم للمشرفين)، محرر نصوص متقدم وغني وتصميم متجاوب."
-    }, 
-    "Memory Game 🧩": {
-        "url": "https://mouad-hachemi.github.io/memory-game/",
-        "description-en": "a React-based web app featuring two fun and brain-challenging memory games.",
-        "description-ar": "تطبيق ويب قائم على React يتميز بلعبتين ممتعتين ومليئتين بالتحديات الذهنية."
+    "NetStatus ⚡": {
+        "url": "https://github.com/mouad-hachemi/netstatus-backend",
+        "description-en": "A real-time, full-stack network monitoring system built with Node.js, WebSockets, SQLite, and React. It features multi-protocol checks (HTTP, TCP, ICMP), live latency sparklines, performance logs, and automated Telegram outage alerts.",
+        "description-ar": "نظام خفيف ومباشر لمراقبة الشبكة تم بناؤه باستخدام Node.js وWebSockets وSQLite وReact. يتميز بفحوصات متعددة البروتوكولات (HTTP وTCP وICMP)، ورسوم بيانية حية لزمن الاستجابة، وسجلات للأداء، وتنبيهات فورية عند انقطاع الخدمة عبر تليجرام."
     }
 }
